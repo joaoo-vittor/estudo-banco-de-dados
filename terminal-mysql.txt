@@ -1,0 +1,28 @@
+-> Entrar no MySql:
+  |
+  |-> $ sudo mysql
+
+
+-> Entrar no MySql com Root:
+  |
+  |-> $ sudo mysql -u root -p
+
+
+-> Testando o MySQL:
+  |
+  |-> $ systemctl status mysql.service
+
+
+-> Se o MySQL não estiver funcionando, inicie-o com o comando:
+  |
+  |-> $ sudo systemctl start mysql
+
+
+-> Como verificação adicional,
+  | tente se conectar ao banco de dados usando a ferramenta mysqladmin.
+  | Esta ferramenta é um cliente que permite que você execute comandos administrativos.
+  | Por exemplo, este comando diz para se conectar ao MySQL como root (u-root),
+  | solicitar uma senha (-p) e retornar a versão.
+  |
+  |-> $ systemctl status mysql.service
+
